@@ -8,7 +8,7 @@ This script is an Arcade Expression designed for use in ArcGIS Dashboards, speci
 
 In this script, SVG is used to visually represent data elements like the report ID and last status change. SMIL animations are integrated to create engaging visual effects, making status changes more noticeable. The advanced formatting capabilities of ArcGIS Dashboards allow for the seamless integration of this HTML and SVG content, providing a rich user experience. The Arcade Expression serves as the backbone of this functionality, dynamically pulling in data and rendering it in an easily digestible format.
 
-- **SVG (Scalable Vector Graphics)** is an XML-based format for vector graphics that allows for high-quality images that can scale to any size without losing clarity. SVG is widely used on the web because it can be manipulated via CSS and JavaScript, making it highly versatile for graphical presentations in web applications.
+- **SVG (Scalable Vector Graphics)** is an XML-based format for vector graphics that allows for high-quality images that can scale to any size without losing clarity. SVG is widely used on the web because it can be manipulated via inline styling and JavaScript, making it highly versatile for graphical presentations in web applications.
 
 - **SMIL (Synchronized Multimedia Integration Language)** animations allow for the creation of animations directly within SVG files. This means you can animate attributes of SVG elements, such as position, size, and colour, using simple XML syntax. SMIL animations enable developers to enhance user interfaces with engaging, dynamic graphics without relying on external libraries.
 
@@ -212,7 +212,7 @@ html +=
     "</tbody>" +
     "</table>";
 ```
-- This constructs the final output by wrapping the next step message in a visually appealing callout box. It employs CSS styling to enhance the layout and make it stand out.
+- This constructs the final output by wrapping the next step message in a visually appealing callout box. It employs inline styling to enhance the layout and make it stand out.
 
 ### Closing the Table
 
