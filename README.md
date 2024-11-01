@@ -12,7 +12,7 @@ In this script, SVG is used to visually represent data elements like the report 
 
 - **SMIL (Synchronized Multimedia Integration Language)** animations allow for the creation of animations directly within SVG files. This means you can animate attributes of SVG elements, such as position, size, and colour, using simple XML syntax. SMIL animations enable developers to enhance user interfaces with engaging, dynamic graphics without relying on external libraries.
 
-- In ArcGIS Dashboards, ***advanced formatting** allows users to customise the appearance of dashboard elements significantly. This includes the use of HTML and CSS to style data presentations, making it possible to create visually compelling and informative layouts tailored to specific user needs.
+- In ArcGIS Dashboards, **advanced formatting** allows users to customise the appearance of dashboard elements significantly. This includes the use of HTML to style data presentations, making it possible to create visually compelling and informative layouts tailored to specific user needs.
 
 - **Arcade Expressions** are a scripting language used in the ArcGIS platform to perform calculations and data manipulations on the fly. They enable users to create custom expressions that can drive the presentation of data within maps, dashboards, and other applications, providing a flexible way to display information based on user-defined logic.
 
