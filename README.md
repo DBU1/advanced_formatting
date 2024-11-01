@@ -224,7 +224,8 @@ return {
     }
 };
 ```
-- This finalizes the HTML table structure and returns it, making it ready for display within the ArcGIS Dashboard.
+- This finalises the HTML table structure and returns it, making it ready for display within the ArcGIS Dashboard.
+- In Line item template it is important to reference the html attribute from the arcade expression using {expression/attribute1}
 
 ## Conclusion
 
