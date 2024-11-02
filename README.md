@@ -26,7 +26,7 @@ Before delving into the code, it is essential to understand the fields employed 
 - **`sys_workflow_status`**: This field indicates the current status of the report within the workflow. Possible values include:
   - `submit_to_team`: The report was rejected, requiring the team to address the feedback and resubmit.
   - `submit_to_org`: The report is currently awaiting review by the organisation's operations team.
-  - `submit_to_org_im`: The report is under review by the organisation's Information Manager.
+  - `submit_to_org_im`: The report is under review by the organisation's Information Manager to cross-check before it is submitted to the LibMAC operations team.
   - `submit_to_libmac`: The report is with the LibMAC operations officer for review.
   - `submit_to_im`: The report is in the final validation stage.
 
